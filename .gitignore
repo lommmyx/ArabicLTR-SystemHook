@@ -1,0 +1,14 @@
+# Gradle / Android build output
+.gradle/
+build/
+**/build/
+local.properties
+.idea/
+*.iml
+
+# Signing material and credentials (never commit these)
+*.jks
+*.keystore
+*.p12
+*.env
+signing.env
